@@ -19,31 +19,56 @@
 <table align="center" width="90%" class="ptext1" cellspacing="15">
 <tr>
 <td> <label> Frist Name* </label> </td>
-<td> <input type="text" name="First_Name" Style="width:610px;color:purple;font-size:15px;font-family:Segoe Print" required> </td>
+<td> <input type="text" name="First_Name" class="i" required> </td>
 </tr>
 
 <tr>
 <td> <label> Last Name* </label> </td>
-<td> <input type="text" name="Last_Name" Style="width:610px;color:purple;font-size:15px;font-family:Segoe Print" required> </td>
+<td> <input type="text" name="Last_Name" class="i" required> </td>
 </tr>
 
 <tr>
 <td> <label> Email* </label> </td>
-<td> <input type="email" name="Email" Style="width:610px;color:purple;font-size:15px;font-family:Segoe Print" required> </td>
+<td> <input type="email" name="Email" class="i" required> </td>
 </tr>
 
 <tr>
 <td> <label> How Did You Find Our Website?* </label> </td>
-<td> <input type="radio" name=" How_Did_You_Find_Our_Website" value="Exelant" checked="checked" required> Exelant <br>
-<input type="radio" name=" How_Did_You_Find_Our_Website" value="Good" required> Good <br>
-<input type="radio" name=" How_Did_You_Find_Our_Website" value="Bad" required> Bad <br>
-<input type="radio" name=" How_Did_You_Find_Our_Website" value="Very Bad" required> Very Bad <br>
+<td> <input class="k" type="radio" name=" How_Did_You_Find_Our_Website" value="Exelant" checked="checked" required> <font color="purple"> Exelant </font> <br>
+<input class="k" type="radio" name=" How_Did_You_Find_Our_Website" value="Good" required> <font color="purple"> Good </font> <br>
+<input class="k" type="radio" name=" How_Did_You_Find_Our_Website" value="Bad" required> <font color="purple"> Bad </font> <br>
+<input class="k" type="radio" name=" How_Did_You_Find_Our_Website" value="Very Bad" required> <font color="purple"> Very Bad </font> <br>
 </td>
 </tr>
 
 <tr>
+<td><label> What Do You Like in Solar System Website? </label></td>
+<td><input class="k" type="checkbox" name="Like" value="Theme" checked="checked"> <font color="purple"> Theme </font>
+<input class="k" type="checkbox" name="Like" value="photos"> <font color="purple"> photos </font>
+<input class="k" type="checkbox" name="Like" value="videos">  <font color="purple"> videos </font>
+<input class="k" type="checkbox" name="Like" value="Information"> <font color="purple"> Information </font>
+</td>
+</select>
+</tr>
+
+<tr>
+<td><label> What is your Favorite Planet? </label></td>
+<td><select name="Favorite Planet" class="i">
+<option value="THE SUN">THE SUN</option>
+<option value="Mercury">Mercury</option>
+<option value="Venus">Venus</option>
+<option value="Earth">Earth</option>
+<option value="Mars">Mars</option>
+<option value="Jupiter">Jupiter</option>
+<option value="Saturn">Saturn</option>
+<option value="Uranus">Uranus</option>
+<option value="Neptune">Neptune</option></td>
+</select>
+</tr>
+
+<tr>
 <td> <label>Suggestions</label> </td>
-<td> <textarea name="Suggestions" rows="8" cols="80" Style="width:610px;color:purple;font-size:15px;font-family:Segoe Print"></textarea> </td>
+<td> <textarea name="Suggestions" rows="8" cols="80" class="i"></textarea> </td>
 </tr>
 </table>
 
@@ -51,9 +76,9 @@
 
 <table align="center">
 <tr>
-<td> <input type="reset" name="reset" value="Reset" Style="width:140px;color:purple;font-family:Segoe Print"> </td>
-<td> <a href="../../index.html"> <input type="button" onclick="Go To Homepage" value="Cancel" Style="width:140px;color:purple;font-family:Segoe Print"> </a> </td>
-<td> <a href="../../index.html"> <input type="submit" name="submit" value="Send" Style="width:140px;color:purple;font-family:Segoe Print"> </a> </td>
+<td> <input class="j" type="reset" name="reset" value="Reset"> </td>
+<td> <a href="../../index.html"> <input class="j" type="button" onclick="Go To Homepage" value="Cancel"> </a> </td>
+<td> <a href="../../index.html"> <input class="j" type="submit" name="submit" value="Send"> </a> </td>
 </tr>
 </table>
 </form>
@@ -65,15 +90,15 @@
 </div>
 
 <section class="section-light1">
-<table align="center" class="ptext2">
+<table align="center" class="ptext2" width="1800px">
 <tr>
-<td>
+<td width="70px">
 <a href="../Neptune/Neptune.html">
-<img src="image/back.png" alt="" align="left" width="70px" height="70px">
+<img src="image/back.png" align="left" width="70px" height="70px">
 </a>
 </td>
 
-<td width="1200px" align="center">
+<td align="center">
 <a href="#top" align="center">
 <font color="#5098C8"><u>Go To Suggestions </u></font>
 </a>
@@ -83,6 +108,9 @@
 <font color="#5098C8"><u>Go To Homepage</u></font>
 </a>
 </td>
+
+<td width="80px"> </td>
+
 </tr>
 </table>
 </section>

@@ -66,3 +66,16 @@ text-transform: uppercase;}
 background-color: transparent;
 color: #010203;
 font-weight: bold}
+
+.i {
+  color: purple;
+  font-family: Segoe Print;
+  font-size: 15px;
+  width: 610px;
+}
+
+.j {
+  width:140px;
+  color:purple;
+  font-family:Segoe Print;
+}
