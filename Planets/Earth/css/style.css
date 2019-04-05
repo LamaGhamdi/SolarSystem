@@ -5,34 +5,34 @@ font-size: 16px;
 font-family: "lato", sans-serif;
 font-weight: 400;
 line-height: 1.8em;
-color: #666;}
+color: #666 }
 
 .pimg1, .pimg2, .pimg3 {
 position: relative;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-background-attachment: fixed;}
+background-attachment: fixed }
 
 .pimg1 {
-background-image: url('../image/Earth.jpeg');
-min-height: 100%;}
+background-image: url('../image/Jupiter.jpeg');
+min-height: 100% }
 
 .pimg2 {
-background-image: url('../image/moon.jpg');
-min-height: 80%;}
+background-image: url('../image/sky.jpeg');
+min-height: 120% }
 
 .pimg3 {
-background-image: url('../image/Earth1.jpeg');
+background-image: url('../image/Jupiter1.jpeg');
 min-height: 100%;}
 
 .section-light, .section-light1 {
-padding: 50px 80px;}
+padding: 50px 80px }
 
 .section-light {
 background-color: #f4f4f4;
 color: #2B1B17;
-font-size: 15px;
+font-size: 20px;
 letter-spacing: 1px;
 text-transform: capitalize}
 
@@ -42,52 +42,82 @@ color: #2B1B17;
 font-size: 26px;
 text-align: center;}
 
-.ptext, .ptext1, .ptext2, .ptext3, .text, p, ul, h4, h3, ol {
-font-family: Segoe Print;}
+.ptext, .ptext1, .ptext2, .ptext3, .text, p, ol, h2 {
+font-family: Segoe Print}
 
-p, ul, ol {
+p, ol {
 text-align: justify;
-align: center;}
-
-h4, h3{
-text-align: center}
+align: center}
 
 .ptext {
 position: absolute;
 top: 50%;
 width: 100%;
 text-align: center;
-color: white;
 font-size: 100px;
 letter-spacing: 8px;
-text-transform: uppercase;
-font-weight: bold}
+text-transform: uppercase }
 
 .ptext1 {
 position: absolute;
 top: 10%;
 width: 100%;
 text-align: center;
-color: #fff;
-font-size: 70px;
+font-size: 55px;
 letter-spacing: 8px;
-text-transform: uppercase;
-font-weight: bold }
+text-transform: uppercase;}
 
 .ptext2 {
 position: absolute;
 width: 100%;
-color: #fff;
 font-size: 55px;
 letter-spacing: 8px;
 text-transform: uppercase;
-text-align: center;
-font-weight: bold}
+text-align: center }
 
 .ptext3 {
 font-size: 32px;
 letter-spacing: 8px;
 text-transform: uppercase;}
 
+
 .bordertrans {
-background-color: transparent }
+background-color: transparent;
+color: white;
+font-weight: bold}
+
+.pimg4 {
+position: relative;
+width: 400px;
+height: 400px}
+
+.image {
+display: block;
+width: 100%;
+height: auto;}
+
+.overlay {
+position: absolute;
+bottom: 100%;
+left: 0;
+right: 0;
+background-color: #4E387E;
+overflow: hidden;
+width: 100%;
+height: 0;
+transition: .5s ease }
+
+.pimg4:hover .overlay {
+bottom: 0;
+height: 100% }
+
+.text {
+color: white;
+font-size: 50px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center }
