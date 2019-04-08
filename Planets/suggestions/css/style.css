@@ -48,7 +48,9 @@ text-align: center;
 color: #de5285;
 font-size: 100px;
 letter-spacing: 8px;
-text-transform: uppercase;}
+text-transform: uppercase;
+color: black;
+font-weight: bold;}
 
 .ptext1 {
 color: #111;
@@ -62,10 +64,6 @@ font-size: 20px;
 letter-spacing: 8px;
 text-transform: uppercase;}
 
-.bordertrans {
-background-color: transparent;
-color: #010203;
-font-weight: bold}
 
 .i {
   color: purple;
