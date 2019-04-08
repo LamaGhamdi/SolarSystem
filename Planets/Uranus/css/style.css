@@ -57,7 +57,9 @@ width: 100%;
 text-align: center;
 font-size: 100px;
 letter-spacing: 8px;
-text-transform: uppercase }
+text-transform: uppercase;
+color: white;
+font-weight: bold;}
 
 .ptext1 {
 position: absolute;
@@ -66,7 +68,9 @@ width: 100%;
 text-align: center;
 font-size: 55px;
 letter-spacing: 8px;
-text-transform: uppercase;}
+text-transform: uppercase;
+color: white;
+font-weight: bold;}
 
 .ptext2 {
 position: absolute;
@@ -74,18 +78,14 @@ width: 100%;
 font-size: 55px;
 letter-spacing: 8px;
 text-transform: uppercase;
-text-align: center }
+text-align: center;
+color: white;
+font-weight: bold;}
 
 .ptext3 {
 font-size: 32px;
 letter-spacing: 8px;
 text-transform: uppercase;}
-
-
-.bordertrans {
-background-color: transparent;
-color: white;
-font-weight: bold}
 
 .pimg4 {
 position: relative;
